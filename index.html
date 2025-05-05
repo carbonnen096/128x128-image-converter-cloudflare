@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>28×128 Image Converter Free – Online Image Resizer</title>
+  <style>
+    :root {
+      --primary: #4361ee;
+      --secondary: #3f37c9;
+      --accent: #4895ef;
+      --light: #f8f9fa;
+      --dark: #212529;
+      --success: #4cc9f0;
+      --warning: #f72585;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+      color: var(--dark);
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      border-radius: 16px;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .container::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 8px;
+      height: 100%;
+      background: linear-gradient(to bottom, var(--primary), var(--accent));
+    }
+    
+    h1, h2, h3 {
+      color: var(--dark);
+      font-weight: 700;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin-bottom: 25px;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    
+    h1::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 4px;
+      background: linear-gradient(to right, var(--primary), var(--accent));
+      border-radius: 2px;
+    }
+    
+    h2 {
+      font-size: 28px;
+      margin-top: 50px;
+      margin-bottom: 15px;
+      border-left: 5px solid var(--primary);
+      padding-left: 15px;
+    }
+    
+    h3 {
+      font-size: 22px;
+      margin-top: 35px;
+      color: var(--secondary);
+    }
+    
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    a:hover {
+      color: var(--secondary);
+      text-decoration: underline;
+    }
+    
+    ul {
+      margin: 15px 0 25px 25px;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 25px;
+    }
+    
+    li::before {
+      content: "•";
+      color: var(--accent);
+      font-size: 24px;
+      position: absolute;
+      left: 0;
+      top: -3px;
+    }
+    
+    .highlight {
+      background: rgba(67, 97, 238, 0.08);
+      padding: 20px;
+      border-left: 4px solid var(--primary);
+      margin: 30px 0;
+      border-radius: 8px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .highlight::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(67, 97, 238, 0.03) 0%, rgba(72, 149, 239, 0.03) 100%);
+      z-index: 0;
+    }
+    
+    .highlight strong {
+      color: var(--primary);
+    }
+    
+    ol {
+      margin: 15px 0 25px 25px;
+      padding: 0;
+      counter-reset: step-counter;
+    }
+    
+    ol li {
+      counter-increment: step-counter;
+      margin-bottom: 15px;
+      padding-left: 40px;
+      position: relative;
+      list-style: none;
+    }
+    
+    ol li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: var(--primary);
+      color: white;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        padding: 25px;
+        margin: 20px;
+      }
+      
+      h1 {
+        font-size: 28px;
+      }
+      
+      h2 {
+        font-size: 24px;
+      }
+      
+      h3 {
+        font-size: 20px;
+      }
+    }
+    
+    /* Special styling for emoji list items */
+    li[style*="font-size: 1.2em"] {
+      padding-left: 35px;
+    }
+    
+    li[style*="font-size: 1.2em"]::before {
+      content: none;
+    }
+    
+    /* Gradient border for the container */
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+    
+    .container::after {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      background: linear-gradient(45deg, var(--primary), var(--accent), var(--primary));
+      z-index: -1;
+      border-radius: 18px;
+      opacity: 0.1;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>28×128 Image Converter Free – Online Image Resizer</h1>
+
+    <h2>Resize Your Images Simply and Accurately with WeResize</h2>
+    <p>
+      In the digital age, image resizing has become a routine yet essential task for content creators, designers, developers, and everyday users. Whether you need to create icons, adjust graphics for your mobile app, or simply format profile pictures for social media or messaging platforms, having a reliable and efficient image resizing tool is crucial. That's where the 
+      <a href="https://weresize.com/128x128-image-converter/" target="_blank"><strong>128x128 image converter</strong></a> from <strong>WeResize</strong> comes in — a free, online image resizer built to deliver convenience, precision, and quality.
+    </p>
+
+    <h2>Why 28×128? Understanding the Specific Dimension Need</h2>
+    <p>The 28×128 pixel size serves more specialized purposes, such as:</p>
+    <ul>
+      <li><strong>UI/UX Design Assets:</strong> Vertical interface elements or slim banners in app layouts.</li>
+      <li><strong>Game Development:</strong> Narrow character sprites or environmental objects that require a vertical layout.</li>
+      <li><strong>Creative Code Projects:</strong> CSS sprite sheets or JavaScript-generated assets.</li>
+      <li><strong>Machine Learning:</strong> Fixed-dimension image input for training models that analyze narrow, elongated images.</li>
+    </ul>
+
+    <h2>WeResize: The Efficient Online Image Resizing Tool</h2>
+    <p>The 28×128 Image Converter from WeResize is designed for accuracy and ease. Whether you're resizing a single image or processing multiple files, the tool delivers consistent results in seconds — all directly from your browser.</p>
+
+    <h3>Core Features:</h3>
+    <ul>
+      <li style="font-size: 1.2em;">🖼️ <strong>Pixel-Perfect Resizing:</strong> Quickly resize any image format (JPEG, PNG, GIF, BMP) to exactly 28×128 pixels.</li>
+      <li style="font-size: 1.2em;">💡 <strong>Multiple Fit Options:</strong> Choose between <em>Crop</em>, <em>Stretch</em>, or <em>Fit</em> to maintain control over aspect ratio.</li>
+      <li style="font-size: 1.2em;">🧠 <strong>Smart Compression:</strong> Retains image clarity while optimizing file size for web or app usage.</li>
+      <li style="font-size: 1.2em;">📂 <strong>Batch Upload Support:</strong> Resize multiple images at once to streamline your workflow.</li>
+      <li style="font-size: 1.2em;">⚙️ <strong>No Installation Needed:</strong> 100% web-based. Use from any device, no downloads required.</li>
+      <li style="font-size: 1.2em;">🔒 <strong>Safe & Private:</strong> Images are processed instantly and not stored on servers.</li>
+    </ul>
+
+    <h2>How to Use the 28×128 Image Converter</h2>
+    <ol>
+      <li>Go to the WeResize Tool.</li>
+      <li>Upload your image via drag-and-drop or file browser.</li>
+      <li>Set width to <strong>28</strong> and height to <strong>128</strong>.</li>
+      <li>Select your preferred resize mode: Crop, Stretch, or Fit.</li>
+      <li>Download your resized image instantly.</li>
+    </ol>
+
+    <h2>Use Cases: Who Benefits Most?</h2>
+    <ul>
+      <li style="font-size: 1.2em;">🎨 <strong>Graphic Designers:</strong> Create crisp icons and UI elements.</li>
+      <li style="font-size: 1.2em;">📱 <strong>App and Game Developers:</strong> Generate consistent assets for interfaces or game worlds.</li>
+      <li style="font-size: 1.2em;">🧪 <strong>Data Scientists:</strong> Resize datasets for use in machine learning and computer vision.</li>
+      <li style="font-size: 1.2em;">📸 <strong>Everyday Users:</strong> Easily format profile pictures, thumbnails, or blog graphics.</li>
+    </ul>
+
+    <h2>Why Choose WeResize Over Other Tools?</h2>
+    <p>Many online converters impose restrictions like file size limits, intrusive ads, or watermarked results. WeResize eliminates these issues with a clean, powerful, and totally free experience:</p>
+    <ul>
+      <li>✅ Completely Free</li>
+      <li>✅ No Ads or Watermarks</li>
+      <li>✅ No Sign-Up Required</li>
+      <li>✅ Mobile and Desktop Compatible</li>
+      <li>✅ Supports Multiple Formats</li>
+    </ul>
+
+    <div class="highlight">
+      <strong>Final Thoughts:</strong><br>
+      Whether you're designing sprites, preparing AI training data, or resizing images for a vertical layout, the <strong>28×128 Image Converter</strong> by WeResize gives you the precision and convenience you need — all in your browser, free of charge.
+    </div>
+
+    <p><strong>Resize smarter. Resize faster. Resize free — with WeResize.</strong></p>
+  </div>
+</body>
+</html>
